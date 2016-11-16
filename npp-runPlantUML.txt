@@ -1,0 +1,3 @@
+NPP_SAVE
+java -jar C:\Users\agzhukov\PlantUML\plantuml.jar "$(FULL_CURRENT_PATH)" -charset UTF-8
+NPP_RUN SumatraPDF  "$(CURRENT_DIRECTORY)\$(NAME_PART).png"
